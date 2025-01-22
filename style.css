@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial ',sans-serif;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+p , li{
+    font-size: 18px;
+    color: #525252;
+    margin-top: 15px;
+}
+h1{
+    font-size: 60px;
+}
+h3{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.section_gauche{
+    width: 500px;
+    text-align: right;
+}
+.profile img{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+}
+.contact , .competence , .langue , .interet{
+    margin-top: 60px;
+}
+.titre{
+    border-bottom: 1px solid black;
+}
+.contacter{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 12px;
+}
+.contacter p{
+    font-size: 18px;
+    color: #525252;
+    margin-top: 2px;
+}
+.contacter img{
+    height: 38px;
+    width: 40px;
+    margin-top: -8px;
+    margin-left: 10px;
+}
+.section_droite{
+    width: 750px;
+    text-align: left;
+}
+/* .infos{
+    margin-top: 20px;
+} */
+.infos1{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.infos1  , .infos2{
+    font-size: 20px;
+    line-height: 30px;
+}
+.exper h3 , .form h3{
+    text-transform: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.date{
+    font-size: 15px;
+    color: black;
+}
+.pp{
+    font-size: 20px;
+}
+li{
+    margin-left: 20px;
+}
+.experience , .formation{
+    margin-top: 40px;
+}
